@@ -1,5 +1,6 @@
 :root{
     --cor-de-fonte-branca: #f1efef;
+    --cor-fundo-trailer: #080808;
 }
 
 body{
@@ -77,6 +78,19 @@ li:hover{
     text-align: center;
 }
 
-.rodape{
-    background-color: purple;
+.trailer{
+    background-color: var(--cor-fundo-trailer);
+}
+
+.bloco{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.paragrafo{
+    color: var(--cor-de-fonte-branca);
+    width: 440px;
+    text-align: center;
 }

@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400&display=swap" rel="stylesheet">
+    <script src="hp.js"></script>
     <title>Harry Potter</title>
 </head>
 <body>
@@ -16,15 +17,27 @@
         <nav class="link">
             <img class="logohp" src="logo.png" alt="Símbolo do Harry Potter">
             <ul class="lista">
-                <li><a class="lista-link" href="#trailer">Trailers</a></li>
-                <li><a class="lista-link" href="">Suporte</a></li>
-                <li><a class="lista-link" href="">Sobre</a></li>
+                <li class="lista-lista"><a class="lista-link" id="trailer" href="#" onclick="menu()">Trailers</a></li>
+                <li class="lista-lista"><a class="lista-link" href="#">Suporte</a></li>
+                <li class="lista-lista"><a class="lista-link" href="#">Sobre</a></li>
             </ul>          
             <ul class="lista">
-                <li><a class="lista-link entrar" href="#">Entrar</a></li>
-                <li><a class="lista-link" href="#">Inscrever-se</a></li>
+                <li class="lista-lista"><a class="lista-link entrar" href="#">Entrar</a></li>
+                <li class="lista-lista"><a class="lista-link" href="#">Inscrever-se</a></li>
             </ul>
         </nav>
+        <div class="dropdown">
+            <ul class="menu-trailer">
+                <li><a class="filmes" href="#filmeUm">Harry Potter e a Pedra Filosofal</a></li>
+                <li><a class="filmes" href="#filmeDois">Harry Potter e a Câmara Secreta</a></li>
+                <li><a class="filmes" href="#filmeTres">Harry Potter e o Prisioneiro de Azkaban</a></li>
+                <li><a class="filmes" href="#filmeQuatro">Harry Potter e o Cálice de Fogo</a></li>
+                <li><a class="filmes" href="#filmeCinco">Harry Potter e a Ordem da Fênix</a></li>
+                <li><a class="filmes" href="#filmeSeis">Harry Potter e o Enigma do Príncipe</a></li>
+                <li><a class="filmes" href="#filmeSete">Harry Potter e as Relíquias da Morte: Parte 1</a></li>
+                <li><a class="filmes" href="#filmeOito">Harry Potter e as Relíquias da Morte: Parte 2</a></li>
+            </ul>
+        </div>
     </header>
 
     <main class="conteudo-central">
